@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 15.5px;
+    background-color: rgb(245, 235, 242);
+}
+.content{
+    padding: 0;
+    margin: 8% 30% 5% 30%;
+    background-color: #fff;
+    display: flex; 
+    border-radius: 10px; 
+}
+.text{
+    flex-wrap: wrap;
+    padding: 1em;
+    margin-inline-start: 7px; 
+    margin-inline-end: 7px; 
+}
+.img{
+    background-image: url(C:/Users/hp/Desktop/roject_kekely/image/rose.jpg);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    float: left; 
+    height: auto;
+    width: 170%;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px; 
+}
+.dolar1{
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: rgb(35, 89, 48);
+}
+.dolar{ 
+    display: flex;
+}
+ .dolar2{
+    
+    margin: 0;
+    padding: 0.7em;
+    text-decoration: line-through;
+}
+.logo >p{
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* margin-top: 1px; */
+    background-color: rgb(35, 89, 48);
+    border-radius: 10px;
+    font-size: 18px;
+}
+.logo img{
+    display: inline-flex;
+    padding-right: 10px;
+    /* margin: 0; */
+   
+    
+}
+.text > p , h5{
+    color: grey;
+}
+
+/* <===================================MEDIA QUERRY===================================> */
+
+@media only screen and (max-width: 600px) {
+    body{
+        width: 100%;
+    }
+    .content{
+        padding: auto;
+        margin: 25px 12px 25px 12px;
+        background-color: #fff;
+        display: inline-block; 
+        border-radius: 10px; 
+    }
+    .img{
+        padding-bottom: 10px;
+        height: 200px;
+        width: 100%;
+        border-top-left-radius: 10px; 
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+
+    }
+    .text{
+        padding-top: 68%;
+    }
+    .perfume{
+        margin: 0;
+        padding-top: 20px;
+    }
+  }
